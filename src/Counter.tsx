@@ -1,12 +1,10 @@
 import React from 'react';
 import Button from './components/Button'
 import Display from './components/Display';
-import {CountType, addType, resetType} from './App'
+import {CountType} from './App'
 
 type CounterType = {
-  count : CountType 
-  addIsDisabled: addType
-  resetIsDisabled: resetType 
+  count : CountType
   addNumber: () => void
   resetNumber: () => void
 }
@@ -16,8 +14,8 @@ const Counter = (props: CounterType) => {
   return (
     <div>
       <Display count={props.count} />
-      <Button title='inc' func={props.addNumber} isDisabled={props.addIsDisabled} />
-      <Button title='reset' func={props.resetNumber} isDisabled={props.resetIsDisabled} />
+      <Button title='inc' func={props.addNumber} isDisabled={props.count === 5} />
+      <Button title='reset' func={props.resetNumber} isDisabled={props.count === 0} />
     </div>
   );
 }
