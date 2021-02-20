@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2C36;
+    height: 100vh;
+}
+
+.square_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid #61D3F6;
+    height: 250px;
+    width: 350px;
+}
+
+.incorectInput{
+    border: 2px solid #D21640;
+    background-color: #F19BAD;
+}
