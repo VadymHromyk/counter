@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819acdbe-d185-4095-848a-576d5d874a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Counter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SetCounterValue/SetCounterValue.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/counter_5_task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Display.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display/Display.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display/Display.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Display/Display.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display/Display.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Display/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display/Display.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SetCounterValue/SetCounterValue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SetCounterValue/SetCounterValue.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/SetCounterValue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Button" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\counter_5_task\src\components\Button" />
       <recent name="E:\projects\counter_5_task\src\components\SetCounterValue" />
       <recent name="E:\projects\counter_5_task\src\components" />
       <recent name="E:\projects\counter_5_task\src" />
@@ -67,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613685570602</updated>
       <workItem from="1613685581886" duration="23025000" />
+      <workItem from="1614972346935" duration="2690000" />
+      <workItem from="1615050431520" duration="8239000" />
     </task>
     <servers />
   </component>
@@ -83,5 +91,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

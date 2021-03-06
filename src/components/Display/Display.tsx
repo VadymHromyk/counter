@@ -4,14 +4,18 @@ import css from './Display.module.css'
 type DisplayType = {
     count: number
     maxValue: number
-    displayText: number | 'Incorrect value!' | 'Enter a value!' | 'Enter a value and press "set"'
+    displayText: number | 'Incorrect value!' | 'Enter a value!' | 'Please, press "set"'
 }
 
 const Display = (props: DisplayType) => {
 
     return (
         <div className={css.main}>
-            <p className={ props.count === props.maxValue ? css.isMax : '' } >
+            <p className={
+                props.displayText !== 'Please, press "set"' ?
+                    props.count === props.maxValue ? css.is_max : '' :
+                    ''
+            }>
                 {props.displayText}
             </p>
         </div>

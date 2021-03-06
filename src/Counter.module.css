@@ -5,19 +5,39 @@
     background-color: #2A2C36;
     height: 100vh;
 }
-
-.square_block {
+.main_containers {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    color: #61D3F6;
+    font-size: 20px;
     border: 2px solid #61D3F6;
-    height: 250px;
-    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
-
-.incorectInput{
+.container_displays {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #61D3F6;
+    height: 110px;
+    width: 370px;
+    border-radius: 8px;
+}
+.container_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #61D3F6;
+    height: 70px;
+    width: 370px;
+    border-radius: 8px;
+}
+.incorect_input{
     border: 2px solid #D21640;
     background-color: #F19BAD;
 }

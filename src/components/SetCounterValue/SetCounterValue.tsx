@@ -15,8 +15,10 @@ const SetCounterValue = (props: PropsType) => {
             <span>{props.title}</span>
             <input type='number'
                    value={props.value}
-                   onChange={ (e) => {props.func(parseInt(e.currentTarget.value))} }
-                   className={ props.error ? css.incorectInput : '' }
+                   onChange={(e) => {
+                       props.func(parseInt(e.currentTarget.value))
+                   }}
+                   className={props.error ? css.incorect_input : ''}
             />
         </div>
     );

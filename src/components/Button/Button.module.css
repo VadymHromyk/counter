@@ -1,0 +1,28 @@
+.enabled_button{
+    margin: 7px 16px;
+    border: none;
+    font: bold 26px Verdana;
+    outline: none;
+    color: #2A2C36;
+    background-color: #5BC9EB;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 7px #999;
+}
+.enabled_button:hover{
+    background-color: #63DBFF;
+}
+.enabled_button:active {
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
+.disabled_button{
+    margin: 7px 16px;
+    border: none;
+    font: bold 26px Verdana;
+    color: #2A2C36;
+    background-color: #3E6D7F;
+    border-radius: 8px;
+    cursor: not-allowed;
+    box-shadow: 0 4px #666;
+}
